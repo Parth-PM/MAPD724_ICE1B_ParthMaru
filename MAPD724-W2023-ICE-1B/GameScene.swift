@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  MAPD724-W2023-ICE-1B
 //
-//  Created by Parth Maru on 2023-01-21.
+//  Created by Khushboo Kodwani on 2023-01-21.
 //
 
 import SpriteKit
@@ -29,17 +29,17 @@ class GameScene: SKScene
 
         name = "GAME"
         
-        // add first ocean
+        //first ocean
         Ocean1 = ocean()
         Ocean1?.Reset()
         addChild(Ocean1!)
         
-        //add second ocean
+        //second ocean
         Ocean2 = ocean()
         Ocean2?.position.y = -773
         addChild(Ocean2!)
         
-        //add player
+        //player
         player = Player()
         player?.Reset()
         addChild(player!)

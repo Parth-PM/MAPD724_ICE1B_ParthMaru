@@ -22,7 +22,7 @@ class  GameObject : SKSpriteNode, GameProtocol
     var randomSource: GKARC4RandomSource?
     var randomDist: GKRandomDistribution?
     
-    //constructor//initialier
+    //initialier
     init(imageString: String, initialScale: CGFloat)
     {
         //initialize game object
@@ -30,7 +30,6 @@ class  GameObject : SKSpriteNode, GameProtocol
         let color = UIColor.clear
         super.init(texture: texture, color: color, size: texture.size())
         
-        //configuration
         
         scale = initialScale
         setScale(scale!)

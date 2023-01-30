@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MAPD724-W2023-ICE-1B
 //
-//  Created by Parth Maru on 2023-01-21.
+//  Created by Khushboo Kodwani on 2023-01-21.
 //
 
 import UIKit
